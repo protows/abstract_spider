@@ -1,0 +1,18 @@
+package lesson_6.animal2;
+
+public class Cat extends Pet{
+    
+    public Cat(){
+        super("CatVoice");
+    }
+    
+    public String catchMouse(){
+        return "catched the mouse";
+    }
+    
+    @Override
+    public void giveVoice(){
+        super.giveVoice();
+    }
+    
+}
