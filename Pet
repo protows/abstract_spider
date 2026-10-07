@@ -1,0 +1,21 @@
+package lesson_6.animal2;
+
+public abstract class Pet {
+    String voice;
+    public Pet(String voice){
+        this.voice = voice;
+    }
+    
+    public String play(){
+        return "I play";
+    }
+    public String sleep(){
+        return "I sleep";
+    }
+    
+    public void giveVoice(){
+        System.out.println(voice);
+    }
+    
+    
+}
