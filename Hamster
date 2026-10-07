@@ -1,0 +1,9 @@
+package lesson_6.animal2;
+public class Hamster extends Pet{
+    public Hamster(){
+        super("HamsterVoice");
+    }
+    public void hideFood(){
+        System.out.println("hideFood");
+    }
+}
