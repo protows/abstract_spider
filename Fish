@@ -1,0 +1,7 @@
+package lesson_6.animal2;
+
+public class Fish extends Pet{
+    public Fish(){
+        super("FishVoice");
+    }
+}
