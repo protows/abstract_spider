@@ -1,0 +1,12 @@
+package lesson_6.animal2;
+
+public class Spider extends Pet {
+    public Spider(){
+        super("SpiderVoice");
+    }
+    
+    public int getPawsCount(){
+        return 6;
+    }
+    
+}
